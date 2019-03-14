@@ -27,9 +27,14 @@
     border-color: #000;
 }
 
+.FAQcontainer h2:hover{
+    cursor: pointer;
+}
+
+
 .FAQcontainer p{
     position: relative;
-    left: 0%;
-    width: 100%;
+    left: 10%;
+    width: 80%;
     display: none;
 }

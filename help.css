@@ -7,7 +7,7 @@
 
 .help_container_heading{
     position: absolute;
-    top: 5%;
+    top: 10%;
     height: 100px;
     line-height: 100px;
     text-align: center;
@@ -36,7 +36,7 @@
     font-size: 400%;
     border: none;
     outline: none;
-    background-color: #333;
+    background-color: #7B68EE;
     color: #FFF;
     cursor: pointer;
     padding: 15px;
@@ -45,7 +45,7 @@
 }
 
 .help_btn1:hover{
-    background-color: #555;
+    background-color: #6A5ACD;
 }
 
 .help_btn2{
@@ -60,7 +60,7 @@
     font-size: 400%;
     border: none;
     outline: none;
-    background-color: #333;
+    background-color: #3CB371;
     color: #FFF;
     cursor: pointer;
     padding: 15px;
@@ -69,7 +69,7 @@
 }
 
 .help_btn2:hover{
-    background-color: #555;
+    background-color: #2E8B57;
 }
 
 .help_btn3{
@@ -84,7 +84,7 @@
     font-size: 400%;
     border: none;
     outline: none;
-    background-color: #333;
+    background-color: #00BFFF;
     color: #FFF;
     cursor: pointer;
     padding: 15px;
@@ -93,7 +93,7 @@
 }
 
 .help_btn3:hover{
-    background-color: #555;
+    background-color: #1E90FF;
 }
 
 .help_btn4{
@@ -108,7 +108,7 @@
     font-size: 400%;
     border: none;
     outline: none;
-    background-color: #333;
+    background-color: #F08080;
     color: #FFF;
     cursor: pointer;
     padding: 15px;
@@ -117,5 +117,5 @@
 }
 
 .help_btn4:hover{
-    background-color: #555;
+    background-color: #CD5C5C;
 }

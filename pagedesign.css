@@ -23,10 +23,13 @@
     position: relative;
     left: 0%;
     width: 100%;
+    border-bottom: 2px solid;
+    border-color: #000;
 }
 
 .FAQcontainer p{
     position: relative;
     left: 0%;
     width: 100%;
+    display: none;
 }

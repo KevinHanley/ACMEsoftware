@@ -11,3 +11,22 @@
     width: 48%;
     font-size: 400%;
 }
+
+.FAQcontainer{
+    position: fixed;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+}
+
+.FAQcontainer h2{
+    position: relative;
+    left: 0%;
+    width: 100%;
+}
+
+.FAQcontainer p{
+    position: relative;
+    left: 0%;
+    width: 100%;
+}

@@ -5,6 +5,24 @@
         
         <link rel="stylesheet" href="../navbar.css" type="text/css"/>
         <link rel="stylesheet" href="../pagedesign.css" type="text/css"/>
+        
+        <!-- Google icons -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+                $('#q1').on('click', function(){
+                    $('#q1-answer').toggle();
+                });
+                
+                $('#kevin').on('click', function(){
+                    $('#kevin2').toggle();
+                });
+            });
+        </script>
 
     </head>
     
@@ -27,8 +45,22 @@
             </div>
         </header>
         
+        
+        <!-- Main body -->
+        
         <div class="main_container">
             <h1 class="container_heading">tasks</h1>
+            
+            <div class="FAQcontainer">
+                
+                <h2 id="q1">New Task Q1</h2>
+                <p id="q1-answer">To create a new task you press "new task".</p>
+                
+                <h2 id="kevin">New Task Q2</h2>
+                <p id="kevin2">To view existing tasks.</p>
+                
+            </div>
+            
         </div>
         
     </body>

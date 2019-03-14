@@ -75,7 +75,10 @@ nav a:hover::after{
     width: 100%;
 }
 
-.shop1_copyright{
+
+
+
+.acme_copyright{
     position: fixed;
     bottom: 0%;
     width: 100%;
@@ -83,7 +86,7 @@ nav a:hover::after{
     background-color: LightGray;
 }
 
-.shop1_copyright p{
+.acme_copyright p{
     position: absolute;
     left: 10%;
 }

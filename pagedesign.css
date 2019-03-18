@@ -14,8 +14,8 @@
 .con-photo-task{
     position: absolute;
     top: 50px;
-    left: 0%;
-    width: 100%;
+    left: 10%;
+    width: 80%;
     height: 90%;
     background-image: url("Images/tasks-calendar.jpg"); /* Photo by Estée Janssens on Unsplash */
     background-size: cover;
@@ -37,8 +37,8 @@
 .con-photo-staff{
     position: absolute;
     top: 50px;
-    left: 0%;
-    width: 100%;
+    left: 10%;
+    width: 80%;
     height: 90%;
     background-image: url("Images/staff-image.jpg"); /* Photo by Mimi Thian on Unsplash */
     background-size: cover;
@@ -56,18 +56,57 @@
     animation-iteration-count: infinite;
 }
 
+.con-photo-project{
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    width: 80%;
+    height: 90%;
+    background-image: url("Images/project-image.jpg"); /* Photo by Jo Szczepanska on Unsplash */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.con-photo-project i{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    animation-name: bob;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
 
+.con-photo-courses{
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    width: 80%;
+    height: 90%;
+    background-image: url("Images/courses-image.jpg"); /* Photo by Patrick Tomasso on Unsplash */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.con-photo-courses i{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    animation-name: bob;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
 
 
 
 
 .container_heading{
     position: absolute;
-    top: 50px;
-    left: 10%;
-    width: 48%;
+    top: 25px;
+    left: 5%;
     font-size: 400%;
 }
 

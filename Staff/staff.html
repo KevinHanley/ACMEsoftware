@@ -6,6 +6,9 @@
         <link rel="stylesheet" href="../navbar.css" type="text/css"/>
         <link rel="stylesheet" href="../pagedesign.css" type="text/css"/>
         
+        <!-- setting webpage favicon -->
+        <link rel="shortcut icon" type="image/ico" href="../Images/acmefavicon.ico">
+        
         <!-- Google icons -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         
@@ -51,6 +54,10 @@
                 });
                 
                 $('.acme_copyright').css('background-color',"#3CB371");
+                
+                $('.logo').on('click', function(){
+                    $(location).attr('href', '../help.html');
+                });
             });
         </script>
 
@@ -64,7 +71,6 @@
                 
                 <nav>
                     <ul>
-                        <li><a href="../help.html">Home</a></li>
                         <li><a href="../Task/task.html">Tasks</a></li>
                         <li><a href="staff.html">Staff</a></li>
                         <li><a href="../Projects/projects.html">Projects</a></li>

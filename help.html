@@ -6,6 +6,23 @@
         <link rel="stylesheet" href="navbar.css" type="text/css"/>
         <link rel="stylesheet" href="help.css" type="text/css"/>
         
+        <!-- setting webpage favicon -->
+        <link rel="shortcut icon" type="image/ico" href="Images/acmefavicon.ico"/>
+        
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+                
+                $('.logo').on('click', function(){
+                    $(location).attr('href', 'help.html');
+                });
+            
+                
+            });
+        </script>
+        
     </head>
     
     <body>
@@ -16,7 +33,6 @@
                 
                 <nav>
                     <ul>
-                        <li><a href="help.html">Home</a></li>
                         <li><a href="Task/task.html">Tasks</a></li>
                         <li><a href="Staff/staff.html" >Staff</a></li>
                         <li><a href="Projects/projects.html">Projects</a></li>

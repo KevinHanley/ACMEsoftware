@@ -30,6 +30,7 @@ header::after{
     float: left;
     height: 14%;
     width: 20%;
+    cursor: pointer;
 }
 
 nav{

@@ -7,7 +7,7 @@
 
 .help_container_heading{
     position: absolute;
-    top: 10%;
+    top: 60px;
     height: 100px;
     line-height: 100px;
     text-align: center;
@@ -19,7 +19,7 @@
 
 .help_container_message{
     position: absolute;
-    top: 30%;
+    top: 180px;
     height: 50px;
     line-height: 50px;
     text-align: center;
@@ -32,7 +32,7 @@
 .help_btn1{
     position: absolute;
     top: 42%;
-    left: 4%;
+    left: 3%;
     width: 20%;
     height: 250px;
     line-height: 250px;
@@ -56,7 +56,7 @@
 .help_btn2{
     position: absolute;
     top: 42%;
-    left: 28%;
+    left: 27%;
     width: 20%;
     height: 250px;
     line-height: 250px;
@@ -80,7 +80,7 @@
 .help_btn3{
     position: absolute;
     top: 42%;
-    left: 52%;
+    left: 51%;
     width: 20%;
     height: 250px;
     line-height: 250px;
@@ -104,7 +104,7 @@
 .help_btn4{
     position: absolute;
     top: 42%;
-    left: 76%;
+    left: 75%;
     width: 20%;
     height: 250px;
     line-height: 250px;

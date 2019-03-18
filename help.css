@@ -119,3 +119,17 @@
 .help_btn4:hover{
     background-color: #CD5C5C;
 }
+
+
+.acme_copyright{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 10%;
+    background-color: LightGray;
+}
+
+.acme_copyright p{
+    position: relative;
+    left: 10%;
+}

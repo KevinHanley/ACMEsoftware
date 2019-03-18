@@ -1,28 +1,88 @@
 .main_container{
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 10%;
+    height: 90%;
 }
+
+@keyframes bob{
+    0%   {top: 90%; left: 50%;}
+    50%  {top: 87%; left: 50%;}
+    100% {top: 90%; left: 50%;}
+}
+
+.con-photo-task{
+    position: absolute;
+    top: 50px;
+    left: 0%;
+    width: 100%;
+    height: 90%;
+    background-image: url("Images/tasks-calendar.jpg"); /* Photo by Estée Janssens on Unsplash */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.con-photo-task i{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    animation-name: bob;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+.con-photo-staff{
+    position: absolute;
+    top: 50px;
+    left: 0%;
+    width: 100%;
+    height: 90%;
+    background-image: url("Images/staff-image.jpg"); /* Photo by Mimi Thian on Unsplash */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.con-photo-staff i{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    animation-name: bob;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+
 
 .container_heading{
     position: absolute;
-    top: 30%;
+    top: 50px;
     left: 10%;
     width: 48%;
     font-size: 400%;
 }
 
 .FAQcontainer{
-    position: fixed;
-    top: 30%;
-    left: 10%;
-    width: 80%;
+    position: relative;
+    top: 100%;
+    left: 0%;   /* need 0  was 10 */
+    width: 100%; /* need 100  was 80*/
+    height: 70%;
 }
 
 .FAQcontainer h2{
     position: relative;
-    left: 0%;
-    width: 100%;
+    left: 10%; /* need 10 was 0*/
+    width: 80%; /* need 80  was 100*/
     border-bottom: 2px solid;
     border-color: #000;
 }
@@ -32,9 +92,22 @@
 }
 
 
-.FAQcontainer p{
+.FAQcontainer .answer{
+    position: relative;
+    left: 18%; /* need 18  was 10*/
+    width: 72%; /* need 72  was 80*/
+    display: none;
+}
+
+.acme_copyright{
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    height: 10%;
+    background-color: LightGray;
+}
+
+.acme_copyright p{
     position: relative;
     left: 10%;
-    width: 80%;
-    display: none;
 }

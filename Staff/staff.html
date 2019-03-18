@@ -30,6 +30,14 @@
                     $('#q4a').toggle();
                 });
                 
+                $('#q5').on('click', function(){
+                    $('#q5a').toggle();
+                });
+                
+                $('#q6').on('click', function(){
+                    $('#q6a').toggle();
+                });
+                
             });
         </script>
 
@@ -55,22 +63,101 @@
         </header>
         
         <div class="main_container">
-            <h1 class="container_heading">FAQ's relating to Staff</h1>
+            <div class="con-photo-staff">
+                <h1 class="container_heading">FAQ's relating to Staff</h1>
+                
+                <i class="material-icons">arrow_downward</i>
+            </div>
             
             <div class="FAQcontainer">
                 
-                <h2 id="q1">Adding new staff <i class="material-icons">arrow_downward</i></h2>
-                <p id="q1a">To new staff you press "new staff".</p>
+                <h2 id="q1">1. How do I create a task within the system? <i class="material-icons">arrow_downward</i></h2>
+                <p id="q1-answer" class="answer">1. To create a new task you must first navigate to "Tasks" within the menu strip.
+                                    </br>
+                                    2. Then select "Create Task".
+                                    </br>
+                                    3. A new task requires a heading (to give an overview of the task), detailed description, due date, task proirity (how urgently does it need to be done) and a member of staff to be assigned to it.
+                                    </p>
+                                    
+                                    </br>
                 
-                <h2 id="q2">To make Staff adjustments <i class="material-icons">arrow_downward</i></h2>
-                <p id="q2a">To view existing staff.</p>
+                <h2 id="q2">2. Who can I assign tasks to? <i class="material-icons">arrow_downward</i></h2>
+                <p id="q2a" class="answer">1. You are only able to assign tasks to staff members within your project team.
+                            </br>
+                            2. You are also able to assign tasks to yourself.
+                            <br>
+                            3. You are unable to assign tasks to staff outside your project team because the tasks aren't relevant to them.
+                            </p>
+                            
+                            </br>
                 
-                <h2 id="q3">Viewing all project tasks <i class="material-icons">arrow_downward</i></h2>
-                <p id="q3a">To view all project tasks.</p>
+                <h2 id="q3">3. Where can I see the tasks I need to complete? <i class="material-icons">arrow_downward</i></h2>
+                <p id="q3a" class="answer">1. Navigate to "Tasks" in the menu strip.
+                            </br>
+                            2. Hover over "View Tasks" and then select "My Tasks" from the pop-out.
+                            </br>
+                            3. You will be greeted by a screen which lists all your current tasks with the listbox on the left.
+                            </br>
+                            4. This list box displays the task headings. Select a heading to view and the boxes on the right will be populated.
+                            </br>
+                            5. Here may also change the status of the task or provide a query if you need more information on how to complete the task.
+                            </p>
+                            
+                            </br>
+                
+                <h2 id="q4">4. What is a "Task Query" <i class="material-icons">arrow_downward</i></h2>
+                <p id="q4a" class="answer">1. A task query allows all developers to engage with other staff.
+                            </br>
+                            2. If you require help completing a task or need more information about it then submit a query so senior staff can view it.
+                            </br> 
+                            3. You are able to submit multple queries from each task, simply by re-opening it within the "My Tasks" option of the menu strip.
+                            </p>
+                            
+                            </br>
+                            
+                            
+                <h2 id="q5">5. Can I view tasks that are assigned to other staff? <i class="material-icons">arrow_downward</i></h2>
+                <p id="q5a" class="answer">1. Yes!
+                            </br>
+                            2. If you navigate to "Tasks" -> "View Tasks" -> "All", then you see several options.
+                            </br> 
+                            3. "By Project" allows you to view all tasks that currently exist for your project. That means every task, regardless of who it is assigned to, will be viewable.
+                            </br>
+                            4. "By Staff Member" allows you to see every task that is assigned to each person, within your project team.
+                            </br>
+                            These options are useful if you want to assign a task to somebody. <b>We recommend</b> you assign tasks to those who currently have the fewest task assigned to them.
+                            </br>
+                            5. Again you are only able to view staff/tasks that are on the same project as you. You cannot view every staff or every task in the system.
+                            </p>
+                            
+                            </br>
+                            
+                <h2 id="q6">6. What is the filtered section? <i class="material-icons">arrow_downward</i></h2>
+                <p id="q6a" class="answer">1. This section allows you to view task through differnet filters.
+                            </br>
+                            2. When tasks are created they can be assigned to staff members or left "unassigned".
+                            </br> 
+                            3. Any task that is "unassigned will appear in "Filtered" -> "Unassigned". Here you will be able to assign tasks to ther or chose a task for yourself.
+                            </br>
+                            4. Any task that is "Ongoing" means that it is assigned and being worked on.
+                            </br>
+                            5. A task that is finshed will appear in the "Completed" section once the assigned user updates it.
+                            </p>
+                            
+                            </br>
+                            
+                <!-- Displaying copyright information -->
+                <footer class="acme_copyright">
+                    <p>
+                        <small>&copy; Copyright 2006-2018 ACME Software Ltd. All rights reserved. Various trademarks held by their respective owners.</small>
+                        <br>
+                        <small>ACME Software Limited, 29 Fake Street, Cork, Co. Cork, Ireland, A11 B22. General Enquiries: +353 1234567 | Fax: +353 1234567 | Sales: + 353 86 1234567</small>
+                    </p>
+                </footer>
                 
             </div>
             
-        </div>
+        </div> <!-- end of main container -->
         
     </body>
 </html>
